@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Point</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<!-- https://bollyflix.co.nl/bollywood-movies/1080p-bollywood-movies-dvdrip-brrip/page/2/ -->
+<body class="bg-black text-white">
+    <header class="bg-gray-900 py-4 px-8">
+        <div class="flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Movie Point</h1>
+            <nav>
+                <ul class="flex space-x-6 items-center">
+                    <li><a href="mop-/" class="hover:text-yellow-500">Home</a></li>
+
+                    <!-- Dropdown for Bollywood -->
+                    <li class="relative group">
+                        <a href="mop-/bollywood-movies/" class="hover:text-yellow-500">Bollywood</a>
+                        <div class="absolute z-10 hidden group-hover:block left-0 pt-2">
+                            <ul class="mt-2 py-2 w-48 z-10 bg-gray-800 rounded-md shadow-lg">
+                                <li><a href="mop-/bollywood-movies/1080p-bollywood-movies-dvdrip-brrip/"
+                                        class="block px-4 py-2 hover:bg-gray-700">1080p Bollywood Movies</a></li>
+                                <li><a href="mop-/bollywood-movies/bollywood-movies-300mb/"
+                                        class="block px-4 py-2 hover:bg-gray-700">300MB Bollywood Movies</a></li>
+                                <li><a href="mop-/bollywood-movies/bollywood-movies-600mb/"
+                                        class="block px-4 py-2 hover:bg-gray-700">700MB Bollywood Movies</a></li>
+                                <li><a href="mop-/bollywood-movies/720p-bollywood-movies-dvdrip-brrip/"
+                                        class="block px-4 py-2 hover:bg-gray-700">720p Bollywood Movies</a></li>
+                                <li><a href="mop-/bollywood-movies/bollywood-hevc-movies-100mb-mkv/"
+                                        class="block px-4 py-2 hover:bg-gray-700">100MB Hevc Bollywood Movies</a></li>
+                                <li><a href="mop-/bollywood-movies/bollwood-movies-new-hd/"
+                                        class="block px-4 py-2 hover:bg-gray-700">New Bollywood Movies HD</a></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <!-- Dropdown for Hollywood -->
+                    <li class="relative group">
+                        <a href="mop-/hollywood-movies/" class="hover:text-yellow-500">Hollywood</a>
+                        <div class="absolute z-10 hidden group-hover:block left-0 pt-2">
+                            <ul class="mt-2 py-2 w-48 z-10 bg-gray-800 rounded-md shadow-lg">
+                                <li><a href="mop-/hollywood-movies/1080p-hollywood-movies-dvdrip-brrip/"
+                                        class="block px-4 py-2 hover:bg-gray-700">1080p Hollywood Movies</a></li>
+                                <li><a href="mop-/hollywood-movies/720p-hollywood-movies-dvdrip-brrip/"
+                                        class="block px-4 py-2 hover:bg-gray-700">720p Hollywood Movies</a></li>
+                                <li><a href="mop-/hollywood-movies/hollywood-300mb-movies/"
+                                        class="block px-4 py-2 hover:bg-gray-700">Hollywood Movies 300MB</a></li>
+                                <li><a href="mop-/hollywood-movies/hollywood-movies-new/"
+                                        class="block px-4 py-2 hover:bg-gray-700">New Hollywood Movies</a></li>
+                                <li><a href="mop-/hollywood-movies/hollywood-movies-new-hd/"
+                                        class="block px-4 py-2 hover:bg-gray-700">New Hollywood Movies HD</a></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <!-- Dropdown for Dual Audio -->
+                    <li class="relative group">
+                        <a href="mop-/dual-audio-hindi-english-movies/" class="hover:text-yellow-500">Dual Audio</a>
+                        <div class="absolute z-10 hidden group-hover:block left-0 pt-2">
+                            <ul class="mt-2 py-2 w-48 z-10 bg-gray-800 rounded-md shadow-lg">
+                                <li><a href="mop-/dual-audio-hindi-english-movies/dual-audio-hindi-english-movies-300mb/"
+                                        class="block px-4 py-2 hover:bg-gray-700">300MB Dual Audio Movies</a></li>
+                                <li><a href="mop-/dual-audio-hindi-english-movies/dual-audio-hindi-english-movies-mkv-720p/"
+                                        class="block px-4 py-2 hover:bg-gray-700">720p Dual Audio Movies</a></li>
+                                <li><a href="mop-/dual-audio-hindi-english-movies/dual-audio-hindi-english-movies-mkv-100mb/"
+                                        class="block px-4 py-2 hover:bg-gray-700">100MB Dual Audio Movies</a></li>
+                                <li><a href="mop-/dual-audio-hindi-english-movies/dual-audio-hindi-english-movies-mkv-1080p/"
+                                        class="block px-4 py-2 hover:bg-gray-700">1080p Dual Audio Movies</a></li>
+                                <li><a href="mop-/south-indian-dubbed-movies-300mb/"
+                                        class="block px-4 py-2 hover:bg-gray-700">South Indian Dubbed Movies [300MB]</a>
+                                </li>
+                                <li><a href="mop-/south-indian-dubbed-movies-download/"
+                                        class="block px-4 py-2 hover:bg-gray-700">South Indian Dubbed Movies [720p]</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li><a href="mop-/telugu-movies-free-download/" class="hover:text-yellow-500">Telugu Movies</a></li>
+                    <li><a href="mop-/tamil-movies/" class="hover:text-yellow-500">Tamil Movies</a></li>
+
+                    <!-- Dropdown for Web Series -->
+                    <li class="relative group">
+                        <a href="mop-/tv-shows/" class="hover:text-yellow-500">Web Series</a>
+                        <div class="absolute z-10 hidden group-hover:block left-0 pt-2">
+                            <ul class="mt-2 py-2 w-48 z-10 bg-gray-800 rounded-md shadow-lg">
+                                <li><a href="mop-/web-series-hindi/" class="block px-4 py-2 hover:bg-gray-700">Hindi Web
+                                        Series</a></li>
+                                <li><a href="mop-/hindi-dubbed-tv-shows/"
+                                        class="block px-4 py-2 hover:bg-gray-700">Hindi Dubbed TV Series</a></li>
+                                <li><a href="mop-/tv-shows/wwe-wrestling/" class="block px-4 py-2 hover:bg-gray-700">WWE
+                                        Wrestling</a></li>
+                                <li><a href="mop-/tv-shows/beyond-season-1/"
+                                        class="block px-4 py-2 hover:bg-gray-700">Beyond Season 1</a></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <!-- Dropdown for Genre -->
+                    <li class="relative group">
+                        <a href="mop-#" class="hover:text-yellow-500">Genre</a>
+                        <div class="absolute z-10 hidden group-hover:block left-0 pt-2">
+                            <ul class="mt-2 py-2 w-48 z-10 bg-gray-800 rounded-md shadow-lg">
+                                <li><a href="mop-/action/" class="block px-4 py-2 hover:bg-gray-700">Action Movies</a>
+                                </li>
+                                <li><a href="mop-/adventure/" class="block px-4 py-2 hover:bg-gray-700">Adventure
+                                        Movies</a></li>
+                                <li><a href="mop-/animation/" class="block px-4 py-2 hover:bg-gray-700">Animated
+                                        Movies</a></li>
+                                <li><a href="mop-/comedy/" class="block px-4 py-2 hover:bg-gray-700">Comedy Movies</a>
+                                </li>
+                                <li><a href="mop-/crime/" class="block px-4 py-2 hover:bg-gray-700">Crime Movies</a>
+                                </li>
+                                <li><a href="mop-/documentary/" class="block px-4 py-2 hover:bg-gray-700">Documentary
+                                        Movies</a></li>
+                                <li><a href="mop-/drama/" class="block px-4 py-2 hover:bg-gray-700">Drama Movies</a>
+                                </li>
+                                <li><a href="mop-/family/" class="block px-4 py-2 hover:bg-gray-700">Family Movies</a>
+                                </li>
+                                <li><a href="mop-/horror/" class="block px-4 py-2 hover:bg-gray-700">Horror Movies</a>
+                                </li>
+                                <li><a href="mop-/romance/" class="block px-4 py-2 hover:bg-gray-700">Romantic
+                                        Movies</a></li>
+                                <li><a href="mop-/thriller/" class="block px-4 py-2 hover:bg-gray-700">Thriller
+                                        Movies</a></li>
+                                <li><a href="mop-/war/" class="block px-4 py-2 hover:bg-gray-700">War Movies</a></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <!-- Dropdown for Movies By Year -->
+                    <li class="relative group">
+                        <a href="mop-/category/movies-by-year/" class="hover:text-yellow-500">By Year</a>
+                        <div class="absolute z-10 hidden group-hover:block left-0 pt-2">
+                            <ul class="mt-2 py-2 w-48 z-10 bg-gray-800 rounded-md shadow-lg">
+                                <li><a href="mop-/xfsearch/year/2025/"
+                                        class="block px-4 py-2 hover:bg-gray-700">2025</a></li>
+                                <li><a href="mop-/xfsearch/year/2024/"
+                                        class="block px-4 py-2 hover:bg-gray-700">2024</a></li>
+                                <li><a href="mop-/xfsearch/year/2023/"
+                                        class="block px-4 py-2 hover:bg-gray-700">2023</a></li>
+                                <li><a href="mop-/xfsearch/year/2022/"
+                                        class="block px-4 py-2 hover:bg-gray-700">2022</a></li>
+                                <li><a href="mop-/xfsearch/year/2021/"
+                                        class="block px-4 py-2 hover:bg-gray-700">2021</a></li>
+                                <li><a href="mop-/xfsearch/year/2020/"
+                                        class="block px-4 py-2 hover:bg-gray-700">2020</a></li>
+                                <li><a href="mop-/xfsearch/year/2019/"
+                                        class="block px-4 py-2 hover:bg-gray-700">2019</a></li>
+                                <li><a href="mop-/xfsearch/year/2018/"
+                                        class="block px-4 py-2 hover:bg-gray-700">2018</a></li>
+                                <li><a href="mop-/xfsearch/year/2017/"
+                                        class="block px-4 py-2 hover:bg-gray-700">2017</a></li>
+                                <li><a href="mop-/xfsearch/year/2016/"
+                                        class="block px-4 py-2 hover:bg-gray-700">2016</a></li>
+                                <li><a href="mop-/xfsearch/year/2015/"
+                                        class="block px-4 py-2 hover:bg-gray-700">2015</a></li>
+                                <li><a href="mop-/xfsearch/year/2014/"
+                                        class="block px-4 py-2 hover:bg-gray-700">2014</a></li>
+                                <li><a href="mop-/xfsearch/year/2013/"
+                                        class="block px-4 py-2 hover:bg-gray-700">2013</a></li>
+                                <li><a href="mop-/xfsearch/year/2012/"
+                                        class="block px-4 py-2 hover:bg-gray-700">2012</a></li>
+                                <li><a href="mop-/xfsearch/year/2011/"
+                                        class="block px-4 py-2 hover:bg-gray-700">2011</a></li>
+                                <li><a href="mop-/xfsearch/year/2010/"
+                                        class="block px-4 py-2 hover:bg-gray-700">2010</a></li>
+                                <li><a href="mop-/xfsearch/year/2009/"
+                                        class="block px-4 py-2 hover:bg-gray-700">2009</a></li>
+                                <li><a href="mop-/xfsearch/year/2008/"
+                                        class="block px-4 py-2 hover:bg-gray-700">2008</a></li>
+                                <li><a href="mop-/xfsearch/year/2007/"
+                                        class="block px-4 py-2 hover:bg-gray-700">2007</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <div class="relative">
+                <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+                    <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
+                    </svg>
+                </div>
+                <input type="text" id="search-navbar"
+                    class="block w-full p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    placeholder="Search...">
+            </div>
+        </div>
+    </header>
+
+    <main class="p-8">
+        <!-- Latest Trailers -->
+        <section class="mb-8">
+            <div class="flex justify-between items-center mb-4">
+                <h2 class="text-xl font-semibold">Latest Trailers</h2>
+                <a href="#" class="text-yellow-500 hover:underline">See all</a>
+            </div>
+            <div class="grid grid-cols-6 gap-4">
+                <div class="bg-gray-800 p-4 rounded-lg">
+                    <img src="./css/images/movie1.jpg" alt="Movie 1" class="w-full h-auto rounded-md">
+                    <h3 class="mt-2 text-sm">Movie 1</h3>
+                    <p class="text-xs">Rating: ⭐⭐⭐⭐</p>
+                </div>
+                <div class="bg-gray-800 p-4 rounded-lg">
+                    <img src="./css/images/movie2.jpg" alt="Movie 2" class="w-full h-auto rounded-md">
+                    <h3 class="mt-2 text-sm">Movie 2</h3>
+                    <p class="text-xs">Rating: ⭐⭐⭐⭐</p>
+                </div>
+                <div class="bg-gray-800 p-4 rounded-lg">
+                    <img src="./css/images/movie3.jpg" alt="Movie 3" class="w-full h-auto rounded-md">
+                    <h3 class="mt-2 text-sm">Movie 3</h3>
+                    <p class="text-xs">Rating: ⭐⭐⭐⭐</p>
+                </div>
+                <div class="bg-gray-800 p-4 rounded-lg">
+                    <img src="./css/images/movie4.jpg" alt="Movie 4" class="w-full h-auto rounded-md">
+                    <h3 class="mt-2 text-sm">Movie 4</h3>
+                    <p class="text-xs">Rating: ⭐⭐⭐⭐</p>
+                </div>
+                <div class="bg-gray-800 p-4 rounded-lg">
+                    <img src="./css/images/movie5.jpg" alt="Movie 5" class="w-full h-auto rounded-md">
+                    <h3 class="mt-2 text-sm">Movie 5</h3>
+                    <p class="text-xs">Rating: ⭐⭐⭐⭐</p>
+                </div>
+                <div class="bg-gray-800 p-4 rounded-lg">
+                    <img src="./css/images/movie6.jpg" alt="Movie 6" class="w-full h-auto rounded-md">
+                    <h3 class="mt-2 text-sm">Movie 6</h3>
+                    <p class="text-xs">Rating: ⭐⭐⭐⭐</p>
+                </div>
+            </div>
+            <div class="flex justify-center mt-6">
+                <ul class="flex space-x-2">
+                    <li><a href="page-1.html" class="px-3 py-1 bg-gray-700 text-white rounded">«</a></li>
+                    <li><a href="page-1.html" class="px-3 py-1 bg-yellow-500 text-black rounded">1</a></li>
+                    <li><a href="page-2.html" class="px-3 py-1 bg-gray-700 text-white rounded">2</a></li>
+                    <li><a href="page-3.html" class="px-3 py-1 bg-gray-700 text-white rounded">3</a></li>
+                    <li><span class="px-3 py-1 text-white">...</span></li>
+                    <li><a href="page-100.html" class="px-3 py-1 bg-gray-700 text-white rounded">100</a></li>
+                    <li><a href="page-2.html" class="px-3 py-1 bg-gray-700 text-white rounded">»</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-900 py-4 text-center">
+        <p>&copy; 2025 Movie Hunter. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
